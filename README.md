@@ -14,6 +14,32 @@ LangGraph is a curated collection of Jupyter notebooks for hands-on experimentat
 
 ---
 
+## 🧩 LangGraph Workflow Components
+
+LangGraph empowers you to build and experiment with a variety of workflow patterns for LLMs:
+
+### 🔗 Sequential Workflow
+- **Description:** Tasks are executed one after another, where the output of one step feeds directly into the next.
+- **Use Case:** Stepwise reasoning, multi-stage prompt engineering, or any process where order matters.
+
+### ⚡ Parallel Workflow
+- **Description:** Multiple tasks are executed simultaneously, allowing you to leverage LLMs for concurrent processing.
+- **Use Case:** Batch sentiment analysis, parallel data enrichment, or comparing multiple prompt strategies at once.
+
+### 🔀 Conditional Edges
+- **Description:** The workflow dynamically branches based on intermediate results or model outputs, enabling decision-based flows.
+- **Use Case:** Routing customer feedback to different agents based on sentiment, or choosing different solution paths for a problem.
+
+### 🔁 Iterative Workflow
+- **Description:** Steps are repeated in a loop until a certain condition is met, supporting iterative refinement or repeated querying.
+- **Use Case:** Re-asking an LLM until a satisfactory answer is found, or iterative optimization tasks.
+
+---
+
+Each notebook demonstrates one or more of these workflow patterns—helping you master modular,
+
+---
+
 ## 🗂️ Project Structure
 
 | Notebook                   | Description                                                      |
